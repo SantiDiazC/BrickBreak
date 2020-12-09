@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class BarControl : MonoBehaviour
 {
-    public float BarSpeed = 0.1f;
+    public float BarSpeed = 0.2f;
     public Vector3 NewPos = new Vector3(3.5f, 6.5f, 0.15f);
     // Start is called before the first frame update
     void Start()

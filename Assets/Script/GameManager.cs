@@ -7,7 +7,7 @@ using System;
 public class GameManager : MonoBehaviour
 
 {
-   	SerialPort sp = new SerialPort("COM3", 9600);
+   	SerialPort sp = new SerialPort("COM10", 9600);
     public int brickNum = 40;
 
     public Text Score = null;
